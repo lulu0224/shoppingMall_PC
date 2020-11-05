@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*公共样式*/
+body{
+    font-family:Arial,"微软雅黑", Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.clearfix{
+    *zoom:1;/*IE浏览器清浮动*/
+}
+.clearfix::after{
+    content:'';/*添加一个空内容*/
+    display:block;/*转块*/
+    clear:both;/*清浮动*/
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.container{
+    width: 1190px;
+    margin: 0 auto;
+    /* background-color: wheat; */
+}
+.container2{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../assets/font/iconfont.eot');
+    src: url('../assets/font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/iconfont.woff2') format('woff2'),
+        url('../assets/font/iconfont.woff') format('woff'),
+        url('../assets/font/iconfont.ttf') format('truetype'),
+        url('../assets/font/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }

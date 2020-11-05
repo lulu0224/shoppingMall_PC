@@ -1,0 +1,155 @@
+/* 头部开始 */
+.header_bg{
+    background-color: white;
+}
+.header{
+    /* background-color: wheat; */
+    height: 108px;
+}
+.header img{
+    margin-top: 33px;
+    float: left;
+    display: block;
+}
+.header .tiao{
+    margin-top: 33px;
+    display: inline-block;
+    width: 1px;
+    height: 41px;
+    margin-left: 22px;
+    background-color: #E8E8E8;
+}
+.header .tit{
+font: 20px "微软雅黑";
+color: #5C5C5C;
+margin-left: 20px;
+margin-top: 41px;
+}
+/* 头部结束 */
+
+/* 内容开始 */
+.content_bg{
+    min-width: 1200px;
+    background-color:  #F6F6F6;  
+}
+.content{
+    padding: 34px 0px 41px;
+    /* margin: 0 auto; */
+}
+.content_wrap{
+    padding-top: 20px;
+    padding-bottom: 46px;
+    border-top: 3px solid #F06B0E;    
+     margin: 0px 225px;
+    background-color: white;    
+}
+.content_wrap h2{
+    height: 47px;
+    line-height: 47px;
+    font-size: 22px;
+    text-align: center;
+}
+.content_wrap .user{
+    border: 1px solid #D9D9D9;
+    margin:14px 186px 10px;
+}
+.content_wrap .user input{
+    width: 331px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+}
+.content_wrap .user_down{
+    margin:0px 186px ;
+    color: #F06B0E;
+}
+.content_wrap .user_down a{
+    color: #F06B0E;
+}
+.content_wrap .psdw{
+    border: 1px solid #D9D9D9;
+    margin:14px 186px 10px;
+}
+/* .banner_con .psdw input:focus{
+    outline: 1px solid #FD6F0D;
+} */
+.content_wrap .psdw input{
+    width: 331px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+}
+.content_wrap .pswd_down{
+    margin:0px 186px;
+    color: #F06B0E;
+}
+.content_wrap .pswd_down a{
+    color: #F06B0E;
+}
+.content_wrap .yzm{
+     margin:14px 186px 10px;
+}
+.content_wrap .yzm input{
+    width: 196px;
+    border: 1px solid #D9D9D9;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+}
+.content_wrap .yzm img{
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.content_wrap .yzm_down{
+    margin:0px 186px ;
+    color: #F06B0E;
+}
+.content_wrap .yzm_down a{
+    color: #F06B0E;
+}
+.content_wrap i{
+    display: inline-block;
+    font-size: 14px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-right: 1px solid #D9D9D9;
+    background-color: #F4F4F4;
+}
+.content_wrap button{
+    margin: 32px 183px 35px;
+    width: 384px;
+     height: 40PX;
+     line-height: 40px;
+     border: none;
+     border-radius: 5PX;
+     background-color: #F26B10;
+     font-size: 16PX;
+     color: white;
+}
+.content_wrap p{
+    text-align: center;
+  
+}
+.content_wrap p a{
+    color: #FB5E00;
+}
+/* 内容结束 */
+
+/* footer开始 */
+.footer_bg{
+    background-color: white;
+
+}
+.footer{
+    padding: 36px 0 32px;
+}
+.footer p{
+    color:#5C5C5C;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* footer结束*/

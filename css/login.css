@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* 头部开始 */
+.header_bg{
+    background-color: white;
+}
+.header{
+    /* background-color: wheat; */
+    height: 108px;
+}
+.header img{
+    margin-top: 33px;
+    float: left;
+    display: block;
+}
+.header .tiao{
+    margin-top: 33px;
+    display: inline-block;
+    width: 1px;
+    height: 41px;
+    margin-left: 22px;
+    background-color: #E8E8E8;
+}
+.header .tit{
+font: 20px "微软雅黑";
+color: #5C5C5C;
+margin-left: 20px;
+margin-top: 41px;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.banner_bg{
+    background-color: #FF6A6C;
+    min-width: 1200px;
+}
+.banner{
+    height: 450px;
+}
+.banner ul li{
+display: none;
+}
+.banner ul li.active{
+    display: block;
+}
+.banner_con{
+    background-color: white;
+    padding-top: 15px;
+    margin-top: 35px;
+border-top: 3px solid #F06B0E;
+}
+.banner_con h2{
+    height: 39px;
+    line-height: 39px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.banner_con .user{
+    border: 1px solid #D9D9D9;
+    margin:14px 35px 0px;
+}
+.banner_con .user input{
+    width: 228px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.banner_con .psdw{
+    border: 1px solid #D9D9D9;
+    margin:14px 35px 0px;
+}
+/* .banner_con .psdw input:focus{
+    outline: 1px solid #FD6F0D;
+} */
+.banner_con .psdw input{
+    width: 228px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.banner_con .yzm{
+     margin:14px  35px 24px;
+}
+.banner_con .yzm input{
+    width: 191px;
+    border: 1px solid #D9D9D9;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.banner_con .yzm img{
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.banner_con i{
+    display: inline-block;
+    font-size: 14px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-right: 1px solid #D9D9D9;
+    background-color: #F4F4F4;
+}
+.banner_con button{
+    margin: 0 32px 13px;
+    width: 286px;
+     height: 40PX;
+     line-height: 40px;
+     border: none;
+     border-radius: 5PX;
+     background-color: #F26B10;
+     font-size: 16PX;
+     color: white;
+}
+.banner_con .auto{
+    width: 280px;
+    margin: 0 35px 30px;
+   height: 14px;
+   line-height: 14px;
+}
+.banner_con .auto input{
+    float: left;
+    color: #696969;
+   
+}
+.banner_con .auto a{
+    color: #696969;
+}
+.banner_con .con_foot{
+    border-top: 1px solid #EFEFEF;
+    padding:14px 35px 17px 0px;
+}
+.banner_con .con_foot .qq{
+color: #5D5D5D;
+margin-left: 30px;
+}
+.banner_con .con_foot .weibo{
+    color: #5D5D5D;
+    margin-left: 30px;
+    }
+.banner_con .con_foot .weichat{
+        color: #5D5D5D;
+        margin-left: 23px;
+        }
+ .banner_con .con_foot .zhuce{
+     font-size: 14px;
+            color: #F76900;
+            margin-left: 65px;
+            }
+.banner_con .con_foot .qq::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #28A5F9;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.banner_con .con_foot .weibo::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #DC2D1B;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.banner_con .con_foot .weichat::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #1CE549;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+
+.footer_bg{
+    background-color: white;
+
+}
+.footer{
+    padding: 36px 0 32px;
+}
+.footer p{
+    color:#5C5C5C;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
